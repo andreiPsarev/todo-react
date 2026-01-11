@@ -72,14 +72,14 @@ function TodoApp() {
           >
             {theme === "light" ? (
               <img
-                src="/images/icon-sun.svg"
+                src={`${import.meta.env.BASE_URL}images/icon-sun.svg`}
                 alt="Light theme"
                 width={24}
                 height={24}
               />
             ) : (
               <img
-                src="/images/icon-moon.svg"
+                src={`${import.meta.env.BASE_URL}images/icon-moon.svg`}
                 alt="Dark theme"
                 width={24}
                 height={24}

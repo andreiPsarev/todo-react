@@ -1,16 +1,58 @@
-# React + Vite
+# Frontend Mentor - Todo app solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### The challenge
 
-## Expanding the ESLint configuration
+Users should be able to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
+- Filter by all/active/complete todos
+- Clear all completed todos
+- Toggle light and dark mode
+
+### Links
+
+- Live Site URL: [My solution on GitHub Pages](https://andreipsarev.github.io/todo-react/)
+
+## My process
+
+### Built with
+
+- HTML5 semantic elements
+- CSS variables (custom properties)
+- Flexbox
+- CSS Grid
+- Mobile-first responsive design
+- [React](https://reactjs.org/) - JavaScript library
+- [Vite](https://vitejs.dev/) - Development & build tool
+
+### What I learned
+
+- How to structure a React app with components (`TodoApp`, `TodoList`, `TodoItem`)
+- Using **React state** and `useState` to manage todos
+- Implementing **filters** for active/completed/all todos
+- Handling **events** like `onClick`, `onChange`, and `onSubmit` in React
+- Theme switching with **CSS variables** and `data-theme` attribute
+- Deploying a React + Vite project to **GitHub Pages**
+- Managing responsive layouts and moving elements like filters for mobile screens
+
+## Author
+
+- Frontend Mentor - [@andreiPsarev](https://www.frontendmentor.io/profile/andreiPsarev)
